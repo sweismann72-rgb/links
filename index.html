@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Philosopher's Stone | Stone Weisman</title><meta name="description" content="Stone Weisman. Philosopher's Stone. Truth Seeker Academy.">
+<meta name="theme-color" content="#000000"><link rel="icon" href="assets/tsa_icon.svg">
+<style>
+@font-face{font-family:IT;src:url(assets/InterTight.ttf);font-weight:100 900}
+@font-face{font-family:Osw;src:url(assets/Oswald.ttf);font-weight:200 700}
+:root{--g:#E6C15A;--gh:#F5D77A;--gs:#B8902A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000}
+body{min-height:100vh;color:#fff;font-family:IT,system-ui,sans-serif;display:flex;justify-content:center;padding:52px 20px 34px;overflow-x:hidden}
+#fx{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.geo{position:fixed;left:50%;top:50%;width:min(140vw,1100px);aspect-ratio:1;transform:translate(-50%,-50%);z-index:0;opacity:.07;pointer-events:none;animation:spin 140s linear infinite}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+main{position:relative;z-index:1;width:100%;max-width:430px;text-align:center}
+.ph{position:relative;width:190px;height:190px;margin:0 auto}
+.glow{position:absolute;inset:-30px;border-radius:50%;background:radial-gradient(circle,rgba(245,215,122,.30) 0%,rgba(230,193,90,.12) 38%,rgba(0,0,0,0) 70%);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.55;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}}
+.logo{position:relative;width:100%;height:100%;display:block;filter:drop-shadow(0 0 14px rgba(230,193,90,.35))}
+.halo{position:absolute;left:-46px;top:-46px;width:260px;height:260px;opacity:.5;animation:spin2 60s linear infinite}
+@keyframes spin2{to{transform:rotate(360deg)}}
+.ring{position:absolute;inset:0;border-radius:50%;padding:2px;background:conic-gradient(from 210deg,var(--gs),var(--gh),var(--g),var(--gs),var(--gh),var(--gs));box-shadow:0 0 34px rgba(230,193,90,.28)}
+.ring img{width:100%;height:100%;border-radius:50%;display:block;background:#000;object-fit:cover}
+h1{font-family:Osw,IT,sans-serif;font-weight:600;font-size:40px;letter-spacing:.06em;text-transform:uppercase;margin-top:30px;line-height:1;background:linear-gradient(180deg,#fff 0%,#fff 45%,var(--gh) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.nm{margin-top:12px;font-size:11px;font-weight:600;letter-spacing:.5em;color:var(--g);text-transform:uppercase;padding-left:.5em}
+.tag{margin-top:14px;font-size:13px;color:rgba(255,255,255,.62);letter-spacing:.04em}
+.rule{width:150px;height:1px;margin:26px auto;background:linear-gradient(90deg,transparent,var(--g),transparent)}
+a.b{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;padding:17px 18px;margin-bottom:12px;border:1px solid rgba(230,193,90,.45);border-radius:6px;background:rgba(5,5,5,.78);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);color:#fff;text-decoration:none;font-weight:600;font-size:15px;letter-spacing:.14em;text-transform:uppercase;transition:border-color .25s,box-shadow .25s,transform .25s}
+a.b:before{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(245,215,122,.22),transparent);transform:skewX(-18deg);transition:left .6s}
+a.b:hover,a.b:focus-visible{border-color:var(--gh);box-shadow:0 0 22px rgba(230,193,90,.25);transform:translateY(-1px)}
+a.b:hover:before,a.b:focus-visible:before{left:120%}
+a.b svg{width:21px;height:21px;flex:none;fill:var(--g)}
+a.b span{flex:1;text-align:left}a.b i{font-style:normal;color:var(--g);font-size:16px}
+a.f{border-color:var(--g);padding:20px 18px;box-shadow:0 0 26px rgba(230,193,90,.22),inset 0 0 18px rgba(230,193,90,.06);animation:pulse 4s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 38px rgba(230,193,90,.36),inset 0 0 18px rgba(230,193,90,.1)}}
+a.f img{width:34px;height:34px;flex:none}
+a.f small{display:block;font-size:10px;letter-spacing:.32em;color:var(--g);margin-top:5px}
+footer{margin-top:28px;font-size:10px;letter-spacing:.45em;color:rgba(230,193,90,.45)}
+@media(prefers-reduced-motion:reduce){.geo,.glow,a.f{animation:none}#fx{display:none}a.b,a.b:before{transition:none}}
+.pbg{display:none}
+@media(min-width:900px){.pbg{display:block;position:fixed;inset:0;z-index:0;pointer-events:none;background-image:url(assets/bg_desktop.jpg);background-image:image-set(url(assets/bg_desktop.webp) type("image/webp"),url(assets/bg_desktop.jpg) type("image/jpeg"));background-repeat:no-repeat;background-size:auto 125%;background-position:center 20%;opacity:.26;filter:contrast(1.05)}
+.pbg:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(0,0,0,0) 0%,rgba(0,0,0,.35) 55%,#000 92%),linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.7) 55%,#000 100%)}}
+</style></head><body>
+<svg class="geo" viewBox="0 0 200 200" fill="none" stroke="#E6C15A" stroke-width=".3"><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="64"/><circle cx="100" cy="100" r="32"/>
+<g id="s"><circle cx="100" cy="68" r="32"/><circle cx="100" cy="132" r="32"/></g><use href="#s" transform="rotate(60 100 100)"/><use href="#s" transform="rotate(120 100 100)"/>
+<polygon points="100,4 183,148 17,148"/><polygon points="100,196 17,52 183,52"/></svg>
+<div class="pbg"></div><canvas id="fx"></canvas>
+<main>
+<div class="ph"><div class="glow"></div><img class="logo" src="assets/tsa_icon.svg" alt="Truth Seeker Academy"></div>
+<h1>Philosopher's Stone</h1>
+<div class="nm">Stone Weisman</div>
+<p class="tag">Hidden history. Declassified files. The truth they buried.</p>
+<div class="rule"></div>
+<a class="b f" href="https://www.skool.com/truth-seeker-academy-5545" target="_blank" rel="noopener"><img src="assets/tsa_icon.svg" alt=""><span>Truth Seeker Academy<small>Join the school</small></span><i>&rarr;</i></a>
+<a class="b" href="https://youtube.com/@iamstoneweisman" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg><span>YouTube</span><i>&rarr;</i></a>
+<a class="b" href="https://tiktok.com/@iamstoneweisman" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.7a2.9 2.9 0 1 1-2-2.8V9.4a6.3 6.3 0 1 0 5.4 6.3V8.7a8.2 8.2 0 0 0 4.8 1.5V6.8a4.8 4.8 0 0 1-1-.1z"/></svg><span>TikTok</span><i>&rarr;</i></a>
+<a class="b" href="https://facebook.com/Iamstoneweisman" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg><span>Facebook</span><i>&rarr;</i></a>
+<footer>&#9670; PHILOSOPHER'S STONE &#9670;</footer>
+</main>
+<script>
+(()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+const c=document.getElementById('fx'),x=c.getContext('2d');let W,H,d=Math.min(devicePixelRatio||1,2),P=[];
+function rs(){W=innerWidth;H=innerHeight;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0)}
+rs();addEventListener('resize',rs);
+const n=innerWidth<600?26:44;
+for(let i=0;i<n;i++){const big=Math.random()<.22;P.push({x:Math.random()*W,y:Math.random()*H,r:big?18+Math.random()*40:1+Math.random()*3.2,a:big?.05+Math.random()*.07:.25+Math.random()*.5,vx:(Math.random()-.5)*.15,vy:-(.05+Math.random()*.25),t:Math.random()*6.28})}
+function f(){x.clearRect(0,0,W,H);x.globalCompositeOperation='lighter';
+for(const p of P){p.x+=p.vx+Math.sin(p.t+=.006)*.12;p.y+=p.vy;if(p.y<-p.r*2){p.y=H+p.r*2;p.x=Math.random()*W}if(p.x<-80)p.x=W+80;if(p.x>W+80)p.x=-80;
+const g=x.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r*(p.r<5?3:1));const al=p.a*(.75+.25*Math.sin(p.t*3));
+g.addColorStop(0,`rgba(245,215,122,${al})`);g.addColorStop(.4,`rgba(230,193,90,${al*.5})`);g.addColorStop(1,'rgba(230,193,90,0)');
+x.fillStyle=g;x.beginPath();x.arc(p.x,p.y,p.r*(p.r<5?3:1),0,6.283);x.fill()}
+requestAnimationFrame(f)}f()})();
+</script></body></html>
